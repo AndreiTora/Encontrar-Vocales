@@ -28,7 +28,7 @@ public class ProgramaJuego {
 
 	int opcion = teclado.nextInt();
 
-	switch (opcion) { // este es un switch 
+	switch (opcion) { // este es un switch en el que puedes elegir dos opciones para elegir vocales
 
 		case 1: 
 
