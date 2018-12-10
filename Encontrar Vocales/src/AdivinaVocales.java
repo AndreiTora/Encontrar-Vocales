@@ -38,7 +38,7 @@ public class AdivinaVocales implements Jugable {
 		for (int x = 0; x < panel.length; x++) {
   			for (int y = 0; y < panel[x].length; y++) {
 
-  				int numeroAzar = (int) (Math.random()* 19); // un numero al azar
+  				int numeroAzar = (int) (Math.random()* 20); // un numero al azar
   				char letraAzar = (char) consonantes.charAt(numeroAzar); // letra del string de consonantes que corresponde a ese numero al azar
   				
 
@@ -55,8 +55,8 @@ public class AdivinaVocales implements Jugable {
 
 			//sigue el mismo principio que en el metodo rellenaVocales
 
-			int posicionX = (int) (Math.random()* 19);
-			int posicionY = (int) (Math.random()* 19);
+			int posicionX = (int) (Math.random()* 20);
+			int posicionY = (int) (Math.random()* 20);
   			int numeroAzar = (int) (Math.random()* 4);
 			char letraAzar = (char) vocales.charAt(numeroAzar);
 
@@ -75,8 +75,8 @@ public class AdivinaVocales implements Jugable {
 
 			//sigue el mismo principio que en el metodo rellenaVocales
 
-			int posicionX = (int) (Math.random()* 19);
-			int posicionY = (int) (Math.random()* 19);
+			int posicionX = (int) (Math.random()* 20);
+			int posicionY = (int) (Math.random()* 20);
   			int numeroAzar = (int) (Math.random()* 4);
 			char letraAzar = (char) vocales.charAt(numeroAzar);
 
